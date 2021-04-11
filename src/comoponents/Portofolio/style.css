@@ -1,0 +1,41 @@
+.PortofolioPage{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2.5rem;
+    
+}
+
+.PortofolioPage .blog{
+    background-color: #fefefe;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.PortofolioPage .blog .blog-content{
+    padding-bottom: 2rem;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.PortofolioPage .blog .blog-content img{
+    width: 100%;
+    transition: all .6s ease-in-out;
+    padding-bottom: 3rem;
+}
+
+.PortofolioPage .blog .blog-content img:hover{
+    transform: scale(1.1);
+}
+
+.PortofolioPage .blog .blog-content .blog-link{
+    color: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    transition: all .4s ease-in-out;
+}
+
+.PortofolioPage .blog .blog-content .blog-link:hover{
+    color: #1597bb;
+}
