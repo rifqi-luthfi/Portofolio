@@ -1,5 +1,5 @@
 import React from 'react';
-import me from "../../asset/image/leftiqi.png"
+import me from "../../asset/image/iqi1.png"
 import Button from '../UI/Button';
 import SocialConnect from '../UI/SocialConnect';
 import './style.css'

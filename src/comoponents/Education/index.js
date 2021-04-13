@@ -1,7 +1,7 @@
 import React from 'react'
 import SmallHeading from '../UI/SmallHeading'
 import MediumHeader from '../UI/MediumHeader'
-import me from '../../asset/image/iqi.png'
+import me from '../../asset/image/iqi2.png'
 import './style.css'
 import SocialConnect from '../UI/SocialConnect'
 import Tile from '../UI/Tile'
@@ -13,7 +13,9 @@ const Education = () => {
             <MediumHeader text={'Experience'}/>
             <div className='flexRow flexCol justify-sb align-center'>
                 <div data-aos='fade-up-right'>
-                        <img src={me} />
+                        <img 
+                        style={{width: '420px'}}
+                        src={me} />
                         <SocialConnect style={{position:'absolute'}}/>
                 </div>
                 <div >
